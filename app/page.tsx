@@ -113,19 +113,19 @@ const projects = [
     title: "Guess The Number",
     description: "An interactive number guessing game where players try to guess a randomly generated number.",
     link: "https://github.com/SulaimanB/Guess-The-Number",
-    tech: ["JavaScript", "HTML", "CSS"]
+    tech: ["JavaScript", "HTML", "CSS", "DOM Manipulation"]
   },
   {
     title: "Drum Kit",
     description: "A virtual drum kit that lets users play drum sounds using keyboard keys or mouse clicks.",
     link: "https://github.com/SulaimanB/Drum-Kit",
-    tech: ["JavaScript", "HTML", "CSS"]
+    tech: ["JavaScript", "HTML", "CSS", "Web Audio API"]
   },
   {
     title: "Book Notes",
     description: "A web application for taking and organizing notes from books you've read.",
     link: "https://github.com/SulaimanB/Book-Notes",
-    tech: ["JavaScript", "HTML", "CSS"]
+    tech: ["JavaScript", "HTML", "CSS", "Local Storage"]
   }
 ];
 
@@ -144,7 +144,7 @@ export default function Home() {
         <FloatingNav />
 
         <main className="pt-20">
-          <section className="min-h-[90vh] flex items-center justify-center relative mb-32">
+          <section className="min-h-[90vh] flex items-center justify-center relative mb-48">
             <BackgroundBeams />
             <div className="container mx-auto px-4 text-center relative z-10">
               <motion.div
@@ -182,7 +182,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="about" className="py-32 bg-gray-50 dark:bg-gray-800 mb-32">
+          <section id="about" className="py-48 bg-gray-50 dark:bg-gray-800 mb-48">
             <div className="container mx-auto px-4">
               <motion.div
                 initial={{ opacity: 0 }}
@@ -197,7 +197,7 @@ export default function Home() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                   viewport={{ once: true }}
-                  className="prose prose-lg dark:prose-invert mx-auto bg-gray-100/80 dark:bg-gray-900 p-8 rounded-2xl shadow-xl border border-gray-300 dark:border-gray-800"
+                  className="prose prose-lg dark:prose-invert mx-auto bg-gray-100/80 dark:bg-gray-900 p-16 rounded-2xl shadow-xl border border-gray-300 dark:border-gray-800"
                 >
                   <p className="text-gray-600 dark:text-gray-300 text-center text-2xl leading-relaxed">
                     Hello Im Sulaiman B A Fullstack Web Developer
@@ -207,7 +207,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="journey" className="py-32 bg-gray-50 dark:bg-gray-800 mb-32 relative overflow-hidden">
+          <section id="journey" className="py-48 bg-gray-50 dark:bg-gray-800 mb-48 relative overflow-hidden">
             <Spotlight />
             <div className="container mx-auto px-4">
               <motion.div
@@ -226,7 +226,7 @@ export default function Home() {
                   className="relative group"
                 >
                   <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition-all duration-500" />
-                  <div className="relative bg-gray-100/80 dark:bg-gray-900/90 p-8 rounded-2xl shadow-xl border border-gray-300 dark:border-gray-800">
+                  <div className="relative bg-gray-100/80 dark:bg-gray-900/90 p-16 rounded-2xl shadow-xl border border-gray-300 dark:border-gray-800">
                     <p className="text-gray-600 dark:text-gray-300 text-center text-2xl leading-relaxed">
                       I enrolled in Angela Yu's Web Development Course and successfully completed it in roughly 8 months
                     </p>
@@ -246,7 +246,7 @@ export default function Home() {
                 className="max-w-6xl mx-auto"
               >
                 <SectionTitle>My Projects</SectionTitle>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
                   {projects.map((project, index) => (
                     <motion.div
                       key={index}
@@ -270,8 +270,6 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Contact</h3>
                 <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                  <li>Email: your.email@example.com</li>
-                  <li>Location: Your Location</li>
                 </ul>
               </div>
               <div>
