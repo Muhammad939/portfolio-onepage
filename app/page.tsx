@@ -113,19 +113,19 @@ const projects = [
     title: "Guess The Number",
     description: "An interactive number guessing game where players try to guess a randomly generated number.",
     link: "https://github.com/SulaimanB/Guess-The-Number",
-    tech: ["JavaScript", "HTML", "CSS", "DOM Manipulation"]
+    tech: ["JavaScript", "HTML", "CSS"]
   },
   {
     title: "Drum Kit",
     description: "A virtual drum kit that lets users play drum sounds using keyboard keys or mouse clicks.",
     link: "https://github.com/SulaimanB/Drum-Kit",
-    tech: ["JavaScript", "HTML", "CSS", "Web Audio API"]
+    tech: ["JavaScript", "HTML", "CSS"]
   },
   {
     title: "Book Notes",
-    description: "A web application for taking and organizing notes from books you've read.",
+    description: "A web application For Just Books No Notes Name Is Deceiving",
     link: "https://github.com/SulaimanB/Book-Notes",
-    tech: ["JavaScript", "HTML", "CSS", "Local Storage"]
+    tech: ["JavaScript", "HTML", "CSS"]
   }
 ];
 
@@ -228,7 +228,7 @@ export default function Home() {
                   <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition-all duration-500" />
                   <div className="relative bg-gray-100/80 dark:bg-gray-900/90 p-16 rounded-2xl shadow-xl border border-gray-300 dark:border-gray-800">
                     <p className="text-gray-600 dark:text-gray-300 text-center text-2xl leading-relaxed">
-                      I enrolled in Angela Yu's Web Development Course and successfully completed it in roughly 8 months
+                      I enrolled in Angela Yu&apos;s Web Development Course and successfully completed it in roughly 8 months Then I Started Max&apos;s Typescript Course In a Month or So
                     </p>
                   </div>
                 </motion.div>
@@ -283,14 +283,13 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Connect</h3>
                 <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                  <li><a href="#" className="hover:text-gray-900 dark:hover:text-white transition-colors">GitHub</a></li>
-                  <li><a href="#" className="hover:text-gray-900 dark:hover:text-white transition-colors">LinkedIn</a></li>
+                  <li><a href="github.com/muhammad939" className="hover:text-gray-900 dark:hover:text-white transition-colors">GitHub</a></li>
                 </ul>
               </div>
             </div>
             <div className="mt-12 text-center">
               <p className="text-gray-600 dark:text-gray-400">
-                © 2024 Sulaiman B. All Rights Reserved.
+                © 2025 Sulaiman B. All Rights Reserved.
               </p>
             </div>
           </div>
