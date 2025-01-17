@@ -270,6 +270,7 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Contact</h3>
                 <ul className="space-y-2 text-gray-600 dark:text-gray-300">
+                <li><a href="github.com/muhammad939" className="hover:text-gray-900 dark:hover:text-white transition-colors">Github</a></li>
                 </ul>
               </div>
               <div>
