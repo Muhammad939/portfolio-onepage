@@ -112,19 +112,19 @@ const projects = [
   {
     title: "Guess The Number",
     description: "An interactive number guessing game where players try to guess a randomly generated number.",
-    link: "https://github.com/SulaimanB/Guess-The-Number",
+    link: "https://github.com/muhammad939/Guess-The-Number",
     tech: ["JavaScript", "HTML", "CSS"]
   },
   {
     title: "Drum Kit",
     description: "A virtual drum kit that lets users play drum sounds using keyboard keys or mouse clicks.",
-    link: "https://github.com/SulaimanB/Drum-Kit",
+    link: "https://github.com/muhammad939/Drum-Kit",
     tech: ["JavaScript", "HTML", "CSS"]
   },
   {
     title: "Book Notes",
     description: "A web application For Just Books No Notes Name Is Deceiving",
-    link: "https://github.com/SulaimanB/Book-Notes",
+    link: "https://github.com/muhammad939/Book-Notes",
     tech: ["JavaScript", "HTML", "CSS"]
   }
 ];
